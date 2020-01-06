@@ -1,12 +1,12 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { NgModule } from "@angular/core";
+import { Routes, RouterModule } from "@angular/router";
 
-import { ListPostComponent } from './list-post.component';
+import { ListPostComponent } from "./list-post.component";
 
-const routes: Routes = [{ path: '', component: ListPostComponent }];
+const routes: Routes = [{ path: "", component: ListPostComponent }];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class ListPostRoutingModule { }
+export class ListPostRoutingModule {}
