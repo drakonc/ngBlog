@@ -11,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { NewPostComponent } from './components/posts/new-post/new-post.component';
 import { ToolbarComponent } from './shared/components/toolbar/toolbar.component';
+import { AboutModule } from './components/pages/about/about.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ToolbarComponent } from './shared/components/toolbar/toolbar.component'
     ListPostModule,
     NewPostModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    AboutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
