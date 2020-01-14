@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faUserLock, faUserTie, faAddressCard } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-toolbar',
@@ -8,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class ToolbarComponent implements OnInit {
 
   public appName: String = "ngBlog";
+  public icons: {} = { faUserLock, faAddressCard, faUserTie }
+
 
   constructor() { }
 

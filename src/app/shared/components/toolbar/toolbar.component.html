@@ -2,12 +2,18 @@
   <a routerLink="/">{{ appName }}</a>
   <span class="fill-remaining-space"></span>
   <a routerLink="/login" routerLinkActive="active">
-    <button mat-button>Login</button>
+    <button mat-button>
+      <fa-icon [icon]="icons.faUserLock"></fa-icon> Login
+    </button>
   </a>
   <a routerLink="/admin" routerLinkActive="active">
-    <button mat-button>Admin</button>
+    <button mat-button>
+      <fa-icon [icon]="icons.faUserTie"></fa-icon> Admin
+    </button>
   </a>
   <a routerLink="/about" routerLinkActive="active">
-    <button mat-button>About</button>
+    <button mat-button>
+      <fa-icon [icon]="icons.faAddressCard"></fa-icon> About
+    </button>
   </a>
 </mat-toolbar>
