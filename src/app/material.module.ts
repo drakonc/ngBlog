@@ -1,8 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatCardModule, MatButtonModule, MatMenuModule, MatToolbarModule, MatIconModule, MatSidenavModule, MatLineModule } from '@angular/material';
+import {
+  MatCardModule, MatButtonModule, MatMenuModule, MatToolbarModule, MatIconModule, MatSidenavModule,
+  MatLineModule, MatProgressSpinnerModule, MatDividerModule, MatChipsModule
+}
+  from '@angular/material';
 
-const myModule = [MatCardModule, MatButtonModule, MatMenuModule, MatToolbarModule, MatIconModule, MatSidenavModule, MatLineModule]
+const myModule = [MatCardModule, MatButtonModule, MatMenuModule, MatToolbarModule, MatIconModule, MatSidenavModule,
+  MatLineModule, MatProgressSpinnerModule, MatDividerModule, MatChipsModule]
 
 @NgModule({
   declarations: [],

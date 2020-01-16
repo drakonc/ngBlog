@@ -17,3 +17,18 @@ body {
     color: #673ab7;
   }
 }
+
+.container-spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.sport {
+  background: blue;
+}
+
+.life {
+  background: orangered;
+}
