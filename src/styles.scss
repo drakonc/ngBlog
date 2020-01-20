@@ -26,9 +26,18 @@ body {
 }
 
 .sport {
-  background: blue;
+  background: blue !important;
 }
 
 .life {
-  background: orangered;
+  background: orangered !important;
+}
+
+.style {
+  background: red !important;
+}
+
+mat-chip.mat-chip.mat-primary.mat-standard-chip {
+  min-height: 1rem;
+  padding: 9px;
 }

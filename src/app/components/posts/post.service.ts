@@ -25,4 +25,9 @@ export class PostService {
         )
       );
   }
+
+  public getOnePosts(idPost: PostI): Observable<PostI> {
+    return this.afs.doc<PostI>(`posts/${idPost}`).valueChanges();
+  }
+
 }
